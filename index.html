@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+    Subnodal Writer
+
+    Copyright (C) Subnodal Technologies. All Rights Reserved.
+
+    https://writer.subnodal.com
+    Licenced by the Subnodal Open-Source Licence, which can be found at LICENCE.md.
+-->
+<html>
+    <head>
+        <title>Subnodal Writer</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+        <link rel="shortcut icon" href="/media/icon.png">
+        <link rel="stylesheet" href="https://cdn.subnodal.com/lib/subui/subui.min.css">
+        <link rel="stylesheet" href="/style.css">
+        <script src="https://cdn.subnodal.com/lib/submodules.min.js"></script>
+        <script src="https://cdn.subnodal.com/lib/subelements.min.js"></script>
+        <script src="https://cdn.subnodal.com/lib/subui/subui.min.js"></script>
+        <script src="https://cdn.subnodal.com/lib/cloud/appsapi.min.js"></script>
+        <script src="/script.js"></script>
+    </head>
+    <body>
+        <body>
+            <nav>
+                <a href="/" sui-style="integrated" aria-label="{{ _('subnodalWriter') }}">
+                    <img src="/media/icon.svg" alt="">
+                </a>
+            </nav>
+            <main contenteditable="true">
+                Hello, world!
+            </main>
+            <sui-splash>
+                <div>
+                    <img src="/media/icon.svg" aria-label="Loading Subnodal Writer...">
+                    <sui-loader></sui-loader>
+                </div>
+            </sui-splash>
+        </body>
+    </body>
+</html>
